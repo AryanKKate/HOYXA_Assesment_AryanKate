@@ -80,8 +80,6 @@ export default function HomePage() {
             onChange={(e) => setSearch(e.target.value)}
             className="flex-1 border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
           />
-
-          {/* Subject dropdown — BUG 1a: lowercase values vs. Title Case data */}
           <select
             value={selectedSubject}
             onChange={(e) => setSelectedSubject(e.target.value)}
@@ -94,8 +92,6 @@ export default function HomePage() {
               </option>
             ))}
           </select>
-
-          {/* Clear Filters — BUG 1d: passes current state back to setters */}
           <button
             onClick={clearFilters}
             className="px-4 py-2 text-sm font-medium text-indigo-600 border border-indigo-300 rounded-lg hover:bg-indigo-50 transition-colors duration-150"
@@ -110,7 +106,7 @@ export default function HomePage() {
           <span className="font-semibold text-gray-700">
             {filteredTutors.length}
           </span>{' '}
-          tutor{filteredTutors.length !== 1 ? 's' : ''}
+          tutor
         </p>
 
         {/* ── Tutor Grid ── */}
