@@ -1,51 +1,65 @@
-# Candidate Assessment
+# 🎓 Meghdo Technical Assessment: Tutor Discovery Module
 
-## Assessment Instructions
-Welcome to the Candidate Assessment! This document outlines the setup guide and assessment instructions for candidates. Please follow each section carefully to ensure a successful assessment experience.
+Welcome! This repository contains a simplified version of the **Meghdo** tutor search interface. We are building a high-performance educational marketplace, and we value engineers who have a sharp eye for bugs, performance bottlenecks, and clean Git history.
 
-### 1. Pre-requisites
+## 🎯 The Challenge
+This module was "rushed to production" and contains exactly **three intentional functional bugs** that range from logic errors to React-specific hydration issues. 
+
+Your task is to:
+1. **Identify** the three bugs.
+2. **Fix** them using best practices.
+3. **Refactor** any code that you feel doesn't meet mid-level production standards.
+
+## 🛠️ Tech Stack
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS
+- **State:** React Hooks
+- **Language:** TypeScript
+
+## 1. Pre-requisites
 Before you start the assessment, ensure that you have the following:
 - [Programming Language] installed on your system.
 - An IDE or code editor of your choice.
 - Access to the repository where the assessment code is stored.
 
-### 2. Setup Guide
-#### Cloning the Repository
-1. Open your terminal.
-2. Run the following command to clone the repository:
+## 🚀 Getting Started
+### **Clone** the repository (do not fork it publicly).
+a. Open your terminal.
+b. Run the following command to clone the repository:
    ```bash
    git clone https://github.com/ankitatakale15-web/CandidateAssessmentQA.git
    ```
-3. Navigate into the project directory:
+c. Navigate into the project directory:
    ```bash
    cd CandidateAssessmentQA
    ```
 
-#### Installing Dependencies
+### Installing Dependencies
 Make sure to install the required dependencies. Run:
 ```bash
 npm install
 ```
-
-#### Running the Application
+### Running the Application
 To run the application, execute:
 ```bash
 npm start
+npm run dev
 ```
+Open [http://localhost:3000](http://localhost:3000) to see the application.
 
-### 3. Assessment Task
-You will be required to complete the following tasks:
-- **Task 1**: [Description of task 1]
-- **Task 2**: [Description of task 2]
-- Make sure to commit and push your changes to the GitHub repository before the deadline.
+## 📋 Evaluation Criteria
+We will be grading your submission based on:
+* **Precision:** Did you find all 3 bugs?
+* **Code Quality:** Are your fixes performant and idiomatic?
+* **Git Hygiene:** **STRICT REQUIREMENT:** We maintain a linear project history. Please use `git rebase` to keep your commits clean. Avoid "Merge branch..." commits.
+* **Communication:** Your ability to explain *why* the bugs occurred in your Pull Request description.
 
-### 4. Bug Descriptions
-Below are some common bugs candidates might encounter during the assessment:
-- **Bug 1**: [Description of bug 1] - [Suggested Solution/Workaround]
-- **Bug 2**: [Description of bug 2] - [Suggested Solution/Workaround]
-
-### 5. Submission Instructions
-Once you have completed the assessment, please submit your work via a pull request on GitHub. Ensure your code is clean and well-commented.
+## 📤 Submission Instructions
+1. Create a private repository on your GitHub account.
+2. Push your fixes to a branch named `fix/discovery-bugs`.
+3. **Rebase** your branch onto `main`.
+4. Invite `@YourGitHubUsername` as a collaborator to your private repo.
+5. Send a brief email/message once ready for review.
 
 ## Good Luck!
 We wish you the best of luck with your assessment. If you have any questions, feel free to reach out via email or the designated communication channel.
