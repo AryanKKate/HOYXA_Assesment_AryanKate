@@ -1,1 +1,51 @@
-node_modules
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# testing
+coverage/
+
+# Next.js
+.next/
+out/
+build/
+
+# production
+/dist
+/build
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# typescript
+*.tsbuildinfo
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary/Text backups
+*.txt
+!CMakeLists.txt
+!robots.txt
+dockerfile.txt
+docker-compose.yml.txt
